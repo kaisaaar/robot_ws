@@ -1,0 +1,20 @@
+[0.588s] Invoking command in '/home/kaisar/robot_ws/build/src_gazebo_controller': PYTHONPATH=/home/kaisar/robot_ws/build/src_gazebo_controller/prefix_override:/home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kaisar/robot_ws/build/src_gazebo_controller/build --no-deps install_data
+[0.767s] running develop
+[0.869s] running egg_info
+[0.869s] writing src_gazebo_controller.egg-info/PKG-INFO
+[0.870s] writing dependency_links to src_gazebo_controller.egg-info/dependency_links.txt
+[0.870s] writing entry points to src_gazebo_controller.egg-info/entry_points.txt
+[0.870s] writing requirements to src_gazebo_controller.egg-info/requires.txt
+[0.870s] writing top-level names to src_gazebo_controller.egg-info/top_level.txt
+[0.895s] reading manifest file 'src_gazebo_controller.egg-info/SOURCES.txt'
+[0.896s] writing manifest file 'src_gazebo_controller.egg-info/SOURCES.txt'
+[0.927s] running build_ext
+[0.927s] Creating /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/site.py
+[0.929s] Creating /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src-gazebo-controller.egg-link (link to .)
+[0.929s] Installing basic_control script to /home/kaisar/robot_ws/install/src_gazebo_controller/lib/src_gazebo_controller
+[0.929s] Installing odom_utility_tools script to /home/kaisar/robot_ws/install/src_gazebo_controller/lib/src_gazebo_controller
+[0.930s] Installing src_gazebo_controller script to /home/kaisar/robot_ws/install/src_gazebo_controller/lib/src_gazebo_controller
+[0.930s] 
+[0.930s] Installed /home/kaisar/robot_ws/build/src_gazebo_controller
+[0.930s] running install_data
+[0.960s] Invoked command in '/home/kaisar/robot_ws/build/src_gazebo_controller' returned '0': PYTHONPATH=/home/kaisar/robot_ws/build/src_gazebo_controller/prefix_override:/home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kaisar/robot_ws/build/src_gazebo_controller/build --no-deps install_data

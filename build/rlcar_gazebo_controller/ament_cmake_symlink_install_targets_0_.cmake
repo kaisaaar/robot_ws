@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/kaisar/robot_ws/build/rlcar_gazebo_controller/rlcar_gazebo_controller" "TARGETS" "rlcar_gazebo_controller" "DESTINATION" "lib/rlcar_gazebo_controller")

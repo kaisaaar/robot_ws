@@ -1,0 +1,78 @@
+[0.029s] Invoking command in '/home/kaisar/robot_ws/build/rlcar_gazebo_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kaisar/robot_ws/src/rlcar_gazebo_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kaisar/robot_ws/install/rlcar_gazebo_controller
+[0.091s] -- The C compiler identification is GNU 9.4.0
+[0.149s] -- The CXX compiler identification is GNU 9.4.0
+[0.157s] -- Check for working C compiler: /usr/bin/cc
+[0.230s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.230s] -- Detecting C compiler ABI info
+[0.298s] -- Detecting C compiler ABI info - done
+[0.311s] -- Detecting C compile features
+[0.312s] -- Detecting C compile features - done
+[0.312s] -- Check for working CXX compiler: /usr/bin/c++
+[0.382s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.384s] -- Detecting CXX compiler ABI info
+[0.477s] -- Detecting CXX compiler ABI info - done
+[0.493s] -- Detecting CXX compile features
+[0.493s] -- Detecting CXX compile features - done
+[0.498s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.529s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.530s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.683s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.783s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.792s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.900s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.929s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.012s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.075s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.077s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.079s] -- Looking for pthread.h
+[1.182s] -- Looking for pthread.h - found
+[1.183s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.271s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.271s] -- Looking for pthread_create in pthreads
+[1.358s] -- Looking for pthread_create in pthreads - not found
+[1.358s] -- Looking for pthread_create in pthread
+[1.447s] -- Looking for pthread_create in pthread - found
+[1.448s] -- Found Threads: TRUE  
+[1.599s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.634s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.702s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.778s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.778s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.778s] -- Configured cppcheck include dirs: 
+[1.778s] -- Configured cppcheck exclude dirs and/or files: 
+[1.779s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.779s] -- Configured cpplint exclude dirs and/or files: 
+[1.780s] -- Added test 'lint_cmake' to check CMake code style
+[1.780s] -- Added test 'uncrustify' to check C / C++ code style
+[1.780s] -- Configured uncrustify additional arguments: 
+[1.781s] -- Added test 'xmllint' to check XML markup files
+[1.783s] -- Configuring done
+[1.789s] -- Generating done
+[1.791s] -- Build files have been written to: /home/kaisar/robot_ws/build/rlcar_gazebo_controller
+[1.798s] Invoked command in '/home/kaisar/robot_ws/build/rlcar_gazebo_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kaisar/robot_ws/src/rlcar_gazebo_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kaisar/robot_ws/install/rlcar_gazebo_controller
+[1.800s] Invoking command in '/home/kaisar/robot_ws/build/rlcar_gazebo_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kaisar/robot_ws/build/rlcar_gazebo_controller -- -j12 -l12
+[1.851s] [35m[1mScanning dependencies of target rlcar_gazebo_controller[0m
+[1.957s] [ 50%] [32mBuilding CXX object CMakeFiles/rlcar_gazebo_controller.dir/src/rlcar_gazebo_controller.cpp.o[0m
+[6.424s] [100%] [32m[1mLinking CXX executable rlcar_gazebo_controller[0m
+[6.693s] [100%] Built target rlcar_gazebo_controller
+[6.703s] Invoked command in '/home/kaisar/robot_ws/build/rlcar_gazebo_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kaisar/robot_ws/build/rlcar_gazebo_controller -- -j12 -l12
+[6.744s] Invoking command in '/home/kaisar/robot_ws/build/rlcar_gazebo_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kaisar/robot_ws/build/rlcar_gazebo_controller
+[6.757s] -- Install configuration: ""
+[6.757s] -- Execute custom install script
+[6.757s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/lib/rlcar_gazebo_controller/rlcar_gazebo_controller
+[6.772s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/ament_index/resource_index/package_run_dependencies/rlcar_gazebo_controller
+[6.780s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/ament_index/resource_index/parent_prefix_path/rlcar_gazebo_controller
+[6.788s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/rlcar_gazebo_controller/environment/ament_prefix_path.sh
+[6.795s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/rlcar_gazebo_controller/environment/ament_prefix_path.dsv
+[6.802s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/rlcar_gazebo_controller/environment/path.sh
+[6.810s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/rlcar_gazebo_controller/environment/path.dsv
+[6.822s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/rlcar_gazebo_controller/local_setup.bash
+[6.834s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/rlcar_gazebo_controller/local_setup.sh
+[6.847s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/rlcar_gazebo_controller/local_setup.zsh
+[6.861s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/rlcar_gazebo_controller/local_setup.dsv
+[6.875s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/rlcar_gazebo_controller/package.dsv
+[6.888s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/ament_index/resource_index/packages/rlcar_gazebo_controller
+[6.901s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/rlcar_gazebo_controller/cmake/rlcar_gazebo_controllerConfig.cmake
+[6.916s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/rlcar_gazebo_controller/cmake/rlcar_gazebo_controllerConfig-version.cmake
+[6.923s] -- Symlinking: /home/kaisar/robot_ws/install/rlcar_gazebo_controller/share/rlcar_gazebo_controller/package.xml
+[6.939s] Invoked command in '/home/kaisar/robot_ws/build/rlcar_gazebo_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kaisar/robot_ws/build/rlcar_gazebo_controller

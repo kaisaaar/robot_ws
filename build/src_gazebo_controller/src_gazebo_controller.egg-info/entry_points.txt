@@ -1,0 +1,5 @@
+[console_scripts]
+basic_control = src_gazebo_controller.basic_control:main
+odom_utility_tools = src_gazebo_controller.odom_utility_tools:main
+src_gazebo_controller = src_gazebo_controller.src_gazebo_controller:main
+

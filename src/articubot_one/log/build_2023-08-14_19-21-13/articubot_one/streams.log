@@ -1,0 +1,68 @@
+[0.026s] Invoking command in '/home/kaisar/robot_ws/src/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kaisar/robot_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/kaisar/robot_ws/src/articubot_one/install/articubot_one
+[0.131s] -- The C compiler identification is GNU 9.4.0
+[0.209s] -- The CXX compiler identification is GNU 9.4.0
+[0.215s] -- Check for working C compiler: /usr/bin/cc
+[0.302s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.304s] -- Detecting C compiler ABI info
+[0.390s] -- Detecting C compiler ABI info - done
+[0.407s] -- Detecting C compile features
+[0.407s] -- Detecting C compile features - done
+[0.410s] -- Check for working CXX compiler: /usr/bin/c++
+[0.506s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.508s] -- Detecting CXX compiler ABI info
+[0.607s] -- Detecting CXX compiler ABI info - done
+[0.619s] -- Detecting CXX compile features
+[0.619s] -- Detecting CXX compile features - done
+[0.623s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.650s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.650s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.864s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.952s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.955s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.955s] -- Configured cppcheck include dirs: 
+[0.955s] -- Configured cppcheck exclude dirs and/or files: 
+[0.958s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.959s] -- Configured cpplint exclude dirs and/or files: 
+[0.959s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.961s] -- Added test 'lint_cmake' to check CMake code style
+[0.961s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.965s] -- Added test 'uncrustify' to check C / C++ code style
+[0.965s] -- Configured uncrustify additional arguments: 
+[0.966s] -- Added test 'xmllint' to check XML markup files
+[0.968s] -- Configuring done
+[0.969s] -- Generating done
+[0.970s] -- Build files have been written to: /home/kaisar/robot_ws/src/articubot_one/build/articubot_one
+[0.973s] Invoked command in '/home/kaisar/robot_ws/src/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kaisar/robot_ws/src/articubot_one -DCMAKE_INSTALL_PREFIX=/home/kaisar/robot_ws/src/articubot_one/install/articubot_one
+[0.976s] Invoking command in '/home/kaisar/robot_ws/src/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kaisar/robot_ws/src/articubot_one/build/articubot_one -- -j12 -l12
+[1.022s] Invoked command in '/home/kaisar/robot_ws/src/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kaisar/robot_ws/src/articubot_one/build/articubot_one -- -j12 -l12
+[1.061s] Invoking command in '/home/kaisar/robot_ws/src/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kaisar/robot_ws/src/articubot_one/build/articubot_one
+[1.075s] -- Install configuration: ""
+[1.075s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config
+[1.075s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/bot.rviz
+[1.075s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[1.075s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description
+[1.076s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.076s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[1.076s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.076s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[1.076s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch
+[1.076s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.077s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.077s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/worlds
+[1.077s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.077s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.077s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.077s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.077s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.077s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/path.sh
+[1.078s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.078s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.bash
+[1.078s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.sh
+[1.078s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.079s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.080s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/package.dsv
+[1.081s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.082s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.082s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.082s] -- Installing: /home/kaisar/robot_ws/src/articubot_one/install/articubot_one/share/articubot_one/package.xml
+[1.083s] Invoked command in '/home/kaisar/robot_ws/src/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kaisar/robot_ws/src/articubot_one/build/articubot_one

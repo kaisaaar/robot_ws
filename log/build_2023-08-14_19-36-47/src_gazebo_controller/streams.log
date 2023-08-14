@@ -1,0 +1,45 @@
+[0.635s] Invoking command in '/home/kaisar/robot_ws/src/src_gazebo_controller': PYTHONPATH=/home/kaisar/robot_ws/build/src_gazebo_controller/prefix_override:/home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/src_gazebo_controller build --build-base /home/kaisar/robot_ws/build/src_gazebo_controller/build install --record /home/kaisar/robot_ws/build/src_gazebo_controller/install.log --install-scripts $base/lib/src_gazebo_controller --single-version-externally-managed
+[0.808s] running egg_info
+[0.808s] creating ../../build/src_gazebo_controller/src_gazebo_controller.egg-info
+[0.808s] writing ../../build/src_gazebo_controller/src_gazebo_controller.egg-info/PKG-INFO
+[0.808s] writing dependency_links to ../../build/src_gazebo_controller/src_gazebo_controller.egg-info/dependency_links.txt
+[0.808s] writing entry points to ../../build/src_gazebo_controller/src_gazebo_controller.egg-info/entry_points.txt
+[0.809s] writing requirements to ../../build/src_gazebo_controller/src_gazebo_controller.egg-info/requires.txt
+[0.809s] writing top-level names to ../../build/src_gazebo_controller/src_gazebo_controller.egg-info/top_level.txt
+[0.818s] writing manifest file '../../build/src_gazebo_controller/src_gazebo_controller.egg-info/SOURCES.txt'
+[0.849s] reading manifest file '../../build/src_gazebo_controller/src_gazebo_controller.egg-info/SOURCES.txt'
+[0.849s] writing manifest file '../../build/src_gazebo_controller/src_gazebo_controller.egg-info/SOURCES.txt'
+[0.850s] running build
+[0.850s] running build_py
+[0.850s] creating /home/kaisar/robot_ws/build/src_gazebo_controller/build
+[0.850s] creating /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib
+[0.850s] creating /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller
+[0.850s] copying src_gazebo_controller/__init__.py -> /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller
+[0.850s] copying src_gazebo_controller/odom_utility_tools.py -> /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller
+[0.850s] copying src_gazebo_controller/src_gazebo_controller.py -> /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller
+[0.850s] copying src_gazebo_controller/basic_control.py -> /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller
+[0.851s] running install
+[0.851s] running install_lib
+[0.851s] creating /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller
+[0.851s] copying /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller/__init__.py -> /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller
+[0.852s] copying /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller/odom_utility_tools.py -> /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller
+[0.852s] copying /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller/src_gazebo_controller.py -> /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller
+[0.852s] copying /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller/basic_control.py -> /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller
+[0.852s] byte-compiling /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller/__init__.py to __init__.cpython-38.pyc
+[0.853s] byte-compiling /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller/odom_utility_tools.py to odom_utility_tools.cpython-38.pyc
+[0.853s] byte-compiling /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller/src_gazebo_controller.py to src_gazebo_controller.cpython-38.pyc
+[0.854s] byte-compiling /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller/basic_control.py to basic_control.cpython-38.pyc
+[0.855s] running install_data
+[0.855s] creating /home/kaisar/robot_ws/install/src_gazebo_controller/share/ament_index
+[0.855s] creating /home/kaisar/robot_ws/install/src_gazebo_controller/share/ament_index/resource_index
+[0.855s] creating /home/kaisar/robot_ws/install/src_gazebo_controller/share/ament_index/resource_index/packages
+[0.856s] copying resource/src_gazebo_controller -> /home/kaisar/robot_ws/install/src_gazebo_controller/share/ament_index/resource_index/packages
+[0.856s] copying package.xml -> /home/kaisar/robot_ws/install/src_gazebo_controller/share/src_gazebo_controller
+[0.856s] running install_egg_info
+[0.857s] Copying ../../build/src_gazebo_controller/src_gazebo_controller.egg-info to /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller-0.0.0-py3.8.egg-info
+[0.857s] running install_scripts
+[0.870s] Installing basic_control script to /home/kaisar/robot_ws/install/src_gazebo_controller/lib/src_gazebo_controller
+[0.870s] Installing odom_utility_tools script to /home/kaisar/robot_ws/install/src_gazebo_controller/lib/src_gazebo_controller
+[0.870s] Installing src_gazebo_controller script to /home/kaisar/robot_ws/install/src_gazebo_controller/lib/src_gazebo_controller
+[0.870s] writing list of installed files to '/home/kaisar/robot_ws/build/src_gazebo_controller/install.log'
+[0.893s] Invoked command in '/home/kaisar/robot_ws/src/src_gazebo_controller' returned '0': PYTHONPATH=/home/kaisar/robot_ws/build/src_gazebo_controller/prefix_override:/home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/src_gazebo_controller build --build-base /home/kaisar/robot_ws/build/src_gazebo_controller/build install --record /home/kaisar/robot_ws/build/src_gazebo_controller/install.log --install-scripts $base/lib/src_gazebo_controller --single-version-externally-managed

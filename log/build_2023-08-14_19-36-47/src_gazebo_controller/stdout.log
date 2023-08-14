@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/src_gazebo_controller/src_gazebo_controller.egg-info
+writing ../../build/src_gazebo_controller/src_gazebo_controller.egg-info/PKG-INFO
+writing dependency_links to ../../build/src_gazebo_controller/src_gazebo_controller.egg-info/dependency_links.txt
+writing entry points to ../../build/src_gazebo_controller/src_gazebo_controller.egg-info/entry_points.txt
+writing requirements to ../../build/src_gazebo_controller/src_gazebo_controller.egg-info/requires.txt
+writing top-level names to ../../build/src_gazebo_controller/src_gazebo_controller.egg-info/top_level.txt
+writing manifest file '../../build/src_gazebo_controller/src_gazebo_controller.egg-info/SOURCES.txt'
+reading manifest file '../../build/src_gazebo_controller/src_gazebo_controller.egg-info/SOURCES.txt'
+writing manifest file '../../build/src_gazebo_controller/src_gazebo_controller.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kaisar/robot_ws/build/src_gazebo_controller/build
+creating /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib
+creating /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller
+copying src_gazebo_controller/__init__.py -> /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller
+copying src_gazebo_controller/odom_utility_tools.py -> /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller
+copying src_gazebo_controller/src_gazebo_controller.py -> /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller
+copying src_gazebo_controller/basic_control.py -> /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller
+running install
+running install_lib
+creating /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller
+copying /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller/__init__.py -> /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller
+copying /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller/odom_utility_tools.py -> /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller
+copying /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller/src_gazebo_controller.py -> /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller
+copying /home/kaisar/robot_ws/build/src_gazebo_controller/build/lib/src_gazebo_controller/basic_control.py -> /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller
+byte-compiling /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller/odom_utility_tools.py to odom_utility_tools.cpython-38.pyc
+byte-compiling /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller/src_gazebo_controller.py to src_gazebo_controller.cpython-38.pyc
+byte-compiling /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller/basic_control.py to basic_control.cpython-38.pyc
+running install_data
+creating /home/kaisar/robot_ws/install/src_gazebo_controller/share/ament_index
+creating /home/kaisar/robot_ws/install/src_gazebo_controller/share/ament_index/resource_index
+creating /home/kaisar/robot_ws/install/src_gazebo_controller/share/ament_index/resource_index/packages
+copying resource/src_gazebo_controller -> /home/kaisar/robot_ws/install/src_gazebo_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/kaisar/robot_ws/install/src_gazebo_controller/share/src_gazebo_controller
+running install_egg_info
+Copying ../../build/src_gazebo_controller/src_gazebo_controller.egg-info to /home/kaisar/robot_ws/install/src_gazebo_controller/lib/python3.8/site-packages/src_gazebo_controller-0.0.0-py3.8.egg-info
+running install_scripts
+Installing basic_control script to /home/kaisar/robot_ws/install/src_gazebo_controller/lib/src_gazebo_controller
+Installing odom_utility_tools script to /home/kaisar/robot_ws/install/src_gazebo_controller/lib/src_gazebo_controller
+Installing src_gazebo_controller script to /home/kaisar/robot_ws/install/src_gazebo_controller/lib/src_gazebo_controller
+writing list of installed files to '/home/kaisar/robot_ws/build/src_gazebo_controller/install.log'

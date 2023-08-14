@@ -1,0 +1,1 @@
+/home/kaisar/robot_ws/build/rlcar_gazebo_controller/ament_cmake_environment_hooks/local_setup.zsh
